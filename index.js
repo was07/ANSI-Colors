@@ -48,6 +48,6 @@ function load(data) {
 
 
 // Access json file and load everything
-fetch('/colors-db.json')
+fetch('https://was07.github.io/ANSI-Colors/colors-db.json')
     .then((response) => response.json())
     .then((json) => load(json));
