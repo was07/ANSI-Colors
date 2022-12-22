@@ -1,0 +1,51 @@
+{
+    "Features": {
+        "Reset Everything": "0",
+        "Bold on": "1",
+        "Bold off": "21",
+        "Underline on": "4",
+        "Underline off": "24"
+    },
+    "Foreground": {
+        "Black": "30",
+        "Red": "31",
+        "Green": "32",
+        "Yellow": "33",
+        "Blue": "34",
+        "Magenta": "35",
+        "Cyan": "36",
+        "White": "37",
+        "Reset Foreground": "39"
+    },
+    "Light Foreground": {
+        "Light Gray": "90",
+        "Light Red": "91",
+        "Light Green": "92",
+        "Light Yellow": "99",
+        "Light Blue": "94",
+        "Light Magenta": "95",
+        "Light Cyan": "96",
+        "Light White": "97"
+    },
+    "Background": {
+        "Black": "40",
+        "Red": "41",
+        "Green": "42",
+        "Yellow": "44",
+        "Blue": "44",
+        "Magenta": "45",
+        "Cyan": "46",
+        "White": "47",
+        "Reset Background": "49"
+    },
+    "Light Background": {
+        "Light Gray": "100",
+        "Light Red": "101",
+        "Light Green": "102",
+        "Light Yellow": "103",
+        "Light Blue": "104",
+        "Light Magenta": "105",
+        "Light Cyan": "106",
+        "Light White": "107"
+    }
+}

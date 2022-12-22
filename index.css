@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+}
+
+#top{
+    color: #458a96;
+    padding: 30px 20px;
+    font-weight: bold;
+}
+#top > div {
+    color: black;
+    font-size: 3em;
+}
+
+#master {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.section {
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #c0c0c0 0px 0px 20px 4px;
+}
+.section:hover > .section-title {
+    color: #6ecabb;
+}
+
+.section-title {
+    padding: 10px 8px;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #919191;
+}
+
+.cell {
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    /* background-color: white; */
+}
+
+.cell-name, .cell-value {
+    padding: 3px;
+}
+
+.cell-name {
+    width: 160px;
+    font-weight: bold;
+}
+
+.cell:hover .cell-name {
+    background-color: #f3f3f3;
+}
+.cell-value {
+    width: 80px;
+    font-family: consolas;
+    /* background-color: rgb(0, 0, 0); */
+    color: #25c7bf;
+    background-color: #f2f9f9;
+    border-radius: 2px;
+    border-bottom: 1px solid #d4d2d2;
+    transition: transform .2s;
+}
+
+.cell-value:hover {
+    cursor: pointer;
+}
+
+.cell:hover .cell-value {
+    /* font-weight: bold; */
+    background-color: #f2f0f0;
+    transform: scale(1.1);
+    transition: transform .1s;
+}
